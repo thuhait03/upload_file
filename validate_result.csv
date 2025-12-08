@@ -1,0 +1,5 @@
+name,email,email_valid,phone,phone_valid
+An,an@example.com,OK,0987654321,OK
+Binh,binh@@gmail.com,FAIL,12345,FAIL
+Chi,chi.nguyen@gmail.com,OK,0912345678,OK
+Dung,dung#gmail.com,FAIL,090,FAIL
