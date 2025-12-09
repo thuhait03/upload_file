@@ -19,6 +19,7 @@ with open("user.json", "r", encoding="utf-8") as f:
 results = []
 
 # --- 2. Validate từng user ---
+
 for u in users:
     email_ok = is_valid_email(u["email"])
     phone_ok = is_valid_phone(u["phone"])
@@ -40,3 +41,4 @@ with open("validate_result.csv", "w", newline="", encoding="utf-8") as csvfile:
     writer.writerows(results)
 
 print("Đã xuất file validate_result.csv thành công!")
+print(" File không tồn tại yêu cầu quay lại")
