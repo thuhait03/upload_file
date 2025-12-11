@@ -41,4 +41,3 @@ with open("validate_result.csv", "w", newline="", encoding="utf-8") as csvfile:
     writer.writerows(results)
 
 print("Đã xuất file validate_result.csv thành công!")
-print(" File không tồn tại yêu cầu quay lại")
